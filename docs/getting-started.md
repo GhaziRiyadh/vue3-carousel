@@ -91,6 +91,24 @@ Used to add display carousel addons components.
 </Carousel>
 ```
 
+### Slote Navigation
+User navigation slote for custom next and prev button.
+```
+<Carousel>
+  ...
+  <template #addons>
+    <Navigation>
+      <template #next>
+        <!-- add you custom code for next button -->
+      </template>
+      <template #prev>
+        <!-- add you custom code for prev button -->
+      </template>
+     </Navigation>
+  </template>
+</Carousel>
+```
+
 ### Slots Attributes
 
 | Prop           | Description                          |
